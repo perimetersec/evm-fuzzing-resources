@@ -1,5 +1,7 @@
 # EVM Fuzzing Resources
-This repository provides a collection of resources on EVM fuzzing. It is actively maintained by [Rappie](https://x.com/rappie_eth) and regularly updated for relevance. Check out the [Recent Additions](recent.md) for the latest updates.
+This repository provides a collection of resources on EVM fuzzing. It is actively maintained by [Rappie](https://x.com/rappie_eth) and regularly updated for relevance.
+
+Check out the [Recent Additions](recent.md) for the latest updates.
 
 If you have suggestions regarding the content, feel free to reach out on X or open a GitHub issue.
 
