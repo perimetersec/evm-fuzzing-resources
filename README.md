@@ -1,6 +1,8 @@
 # EVM Fuzzing Resources
 This repository provides a collection of resources on EVM fuzzing. It is actively maintained by [Rappie](https://x.com/rappie_eth) and regularly updated for relevance.
 
+Check out the [Recent Additions](recent.md) for the latest updates.
+
 If you have suggestions regarding the content, feel free to reach out on X or open a GitHub issue.
 
 ## Table of Contents
@@ -27,7 +29,9 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 ### Libraries & Frameworks
 - [Chimera](https://github.com/Recon-Fuzz/chimera) - Smart Contract Property-Based Testing Framework, by [Recon](https://x.com/getreconxyz)
 - [Fuzzlib](https://github.com/perimetersec/fuzzlib) - Solidity Fuzzing Library, by [Perimeter](https://x.com/perimeter_sec)
+- [Arachne](https://github.com/perimetersec/arachne) - Scaffolding framework for large-scale fuzzing suites, by [Perimeter](https://x.com/perimeter_sec)
 - [CallTestAndUndo](https://github.com/Recon-Fuzz/call-test-undo) - Simple abstract contract to help write invariant tests that do not influence the story, by [Recon](https://x.com/getreconxyz)
+- [Medusa Template Generator](https://crates.io/crates/medusa-gen) - Generate a set of contracts for a Medusa testing campaign following Wonderland usage, by [Wonderland](https://x.com/DeFi_Wonderland)
 
 ### Utils
 - [fuzz-utils](https://github.com/crytic/fuzz-utils) - Set of Python tools to improve the developer experience when using smart contract fuzzing, by [Trail of Bits](https://x.com/trailofbits)
@@ -35,6 +39,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [echidna-trace-parser](https://github.com/Enigma-Dark/echidna-trace-parser) - A parser that converts echidna call traces into foundry PoC tests, by [Enigma Dark](https://x.com/EnigmadarkLabs)
 - [Echidna Coverage Reporter](https://github.com/Simon-Busch/echidna-coverage) - A TypeScript tool to parse and analyze Echidna code coverage reports for Solidity smart contracts, by [0xsi](https://x.com/_0xsi)
 - [Echidna Logs Scraper](https://getrecon.xyz/tools/echidna) - Scrape echidna logs for broken properties repros, by [Recon](https://x.com/getreconxyz)
+- [Youdusa](https://crates.io/crates/youdusa) -  Generate foundry tests for failling Medusa call sequences, by [Wonderland](https://x.com/DeFi_Wonderland)
 
 ## Practical Code Samples
 - [List of Public Fuzzing Campaigns](https://github.com/perimetersec/public-fuzzing-campaigns-list) by [Rappie](https://x.com/rappie_eth)
@@ -81,6 +86,8 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Finding Real Vulnerabilities with the Renzo Fuzzing Repo](https://getrecon.substack.com/p/finding-real-vulnerabilities-with) by [nican0r](https://x.com/nican0r) 
 - [Fuzzing in the Cloud: A review of the different cloud based options for fuzzing Solidity contracts](https://getrecon.substack.com/p/fuzzing-in-the-cloud) by [nican0r](https://x.com/nican0r) 
 - [Corn Engagement Retrospective: Lessons learned from our engagement fuzzing the Corn protocol](https://getrecon.substack.com/p/corn-engagement-retrospective) by [nican0r](https://x.com/nican0r) 
+- [Fuzzing vs. Formal Verification Discussion](https://x.com/0xScourgedev/status/1824122421844025622) by [0xScourgedev](https://x.com/0xScourgedev) & [Certora](https://x.com/CertoraInc)
+- [Manually Guided Fuzzing: A New Approach in Smart Contract Testing](https://ackee.xyz/blog/introducing-manually-guided-fuzzing-a-new-approach-in-smart-contract-testing/) by [Josef Gattermayer](https://x.com/jgattermayer)
 
 ## Videos
 ### Tutorials & Guides
@@ -89,6 +96,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 	- [part 1](https://www.youtube.com/watch?v=xLGTd5OH8xU), [part 2](https://www.youtube.com/watch?v=dWyJq8KGATg), [part 3](https://www.youtube.com/watch?v=yUC3qzZlCkY), [part 4](https://www.youtube.com/watch?v=em8xXB9RHi4), [part 5](https://www.youtube.com/watch?v=I4MP-KXJE54), [part 6](https://www.youtube.com/watch?v=SSzh5GlqteI)
 - [Invariant Testing WETH with Foundry](https://www.youtube.com/watch?v=sJpL21yJpgs) by [horsefacts](https://x.com/eth_call)
 - [Invariant Driven Development - Build a CDP system using Invariants as Safety Nets](https://youtu.be/ZM6479HeI5U?si=7Zlbq8Ao4y1sFtSw) by [Alex the Entreprenerd](https://x.com/GalloDaSballo)
+- [Wake Framework - Swiss Knife to Ethereum Tooling](https://www.youtube.com/watch?v=sckN41TgRFY) by [Michal Převrátil](https://x.com/michprev)
 
 ### Talks & Discussion
 - [Web3 Security: All Things Fuzzing with Victor Martinez](https://www.youtube.com/watch?v=83q14K-WNKM) by [vnmrtz.eth](https://x.com/vn_martinez_)
@@ -106,6 +114,8 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [You should probably be fuzzing](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=6565s) by [Daniel Von Fange](https://x.com/danielvf)
 - [Echidna Made Me Do It!](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=8030s) by [Alex the Entreprenerd](https://x.com/GalloDaSballo)
 - [Uniswap V4: Taking Invariant Testing Where Manual Review Cannot Go](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=8991s) by [Benjamin Samuels](https://x.com/thebensams)
+- [The Efficacy of Fuzzing](https://www.youtube.com/watch?v=BBw_odMWFOI) by [Kris RenZo](https://x.com/KrisRenzo)
+- [Uncover Hidden Bugs with Fuzzing](https://www.youtube.com/watch?v=GZTWKxgmGM8) by [Andrey Babushkin](https://x.com/technoBabushka)
 
 ## Fuzzing Background
 - [The Fuzzing Book](https://www.fuzzingbook.org/) - Tools and Techniques for Generating Software Tests, by [Multiple Authors](https://x.com/FuzzingBook)
