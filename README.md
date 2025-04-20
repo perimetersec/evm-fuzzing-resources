@@ -70,7 +70,6 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Generating unit tests from broken stateful invariant tests](https://allthingsfuzzy.substack.com/p/generating-unit-tests-from-broken) by [nican0r](https://x.com/nican0r) & [Antonio Viggiano](https://x.com/agfviggiano)
 - [Finding Denial of Service Bugs At Scale With Invariant Tests](https://allthingsfuzzy.substack.com/p/finding-denial-of-service-bugs-at) by [Antonio Viggiano](https://x.com/agfviggiano)
 - [Using Echidna to test a smart contract library](https://blog.trailofbits.com/2020/08/17/using-echidna-to-test-a-smart-contract-library/) by [Trail of Bits](https://x.com/trailofbits)
-- [Building A Test Harness With Recon](https://getrecon.substack.com/p/building-a-test-harness-with-recon) by [nican0r](https://x.com/nican0r)
 - [How To Define Invariants](https://getrecon.substack.com/p/how-to-define-invariants) by [nican0r](https://x.com/nican0r)
 - [Implementing Your First Smart Contract Invariants: A Practical Guide](https://getrecon.substack.com/p/implementing-your-first-few-invariants) by [nican0r](https://x.com/nican0r)
 - [10 Steps To Easily Use 3 Fuzzers](https://x.com/DevDacian/status/1733009929508917499) by [Dacian](https://x.com/DevDacian)
@@ -99,7 +98,6 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Wake Framework - Swiss Knife to Ethereum Tooling](https://www.youtube.com/watch?v=sckN41TgRFY) by [Michal Převrátil](https://x.com/michprev)
 
 ### Talks & Discussion
-- [Web3 Security: All Things Fuzzing with Victor Martinez](https://www.youtube.com/watch?v=83q14K-WNKM) by [vnmrtz.eth](https://x.com/vn_martinez_)
 - [Fuzzing and Heuristics interview with @devdacian](https://www.youtube.com/watch?v=IZTvXfC14Ig), by [Cyfrin Audits](https://x.com/CyfrinAudits) 
 - [Fuzzing Like a Degen: Building a Smart Contract Fuzzer](https://youtu.be/qdtQ9k3gCX8?si=AquZxyikCZJwRaU5) by [alpharush](https://x.com/0xalpharush)
 - [All Things Fuzzing with Victor Martinez](https://youtu.be/83q14K-WNKM?si=ez3uZRBvm-3iksFT) by [vnmrtz.eth](https://x.com/vn_martinez_)
@@ -120,3 +118,4 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 ## Fuzzing Background
 - [The Fuzzing Book](https://www.fuzzingbook.org/) - Tools and Techniques for Generating Software Tests, by [Multiple Authors](https://x.com/FuzzingBook)
 - [Awesome Fuzzing](https://github.com/secfigo/Awesome-Fuzzing) - A curated list of fuzzing resources for learning Fuzzing, by [Mohammed A. Imran](https://x.com/secfigo)
+
