@@ -36,10 +36,11 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 ### Utils
 - [fuzz-utils](https://github.com/crytic/fuzz-utils) - Set of Python tools to improve the developer experience when using smart contract fuzzing, by [Trail of Bits](https://x.com/trailofbits)
 - [CloudExec](https://github.com/crytic/cloudexec) - A general purpose foundation for cloud-based fuzzing, by [Trail of Bits](https://x.com/trailofbits)
-- [echidna-trace-parser](https://github.com/Enigma-Dark/echidna-trace-parser) - A parser that converts echidna call traces into foundry PoC tests, by [Enigma Dark](https://x.com/EnigmadarkLabs)
 - [Echidna Coverage Reporter](https://github.com/Simon-Busch/echidna-coverage) - A TypeScript tool to parse and analyze Echidna code coverage reports for Solidity smart contracts, by [0xsi](https://x.com/_0xsi)
+- [echidna-trace-parser](https://github.com/Enigma-Dark/echidna-trace-parser) - A parser that converts echidna call traces into foundry PoC tests, by [Enigma Dark](https://x.com/EnigmadarkLabs)
 - [Echidna Logs Scraper](https://getrecon.xyz/tools/echidna) - Scrape echidna logs for broken properties repros, by [Recon](https://x.com/getreconxyz)
 - [Youdusa](https://crates.io/crates/youdusa) -  Generate foundry tests for failling Medusa call sequences, by [Wonderland](https://x.com/DeFi_Wonderland)
+- [Recon VS Code Extension](https://github.com/Recon-Fuzz/recon-extension) - Seamless integration of Foundry, Medusa, and Echidna, by [Recon](https://x.com/getreconxyz)
 
 ## Practical Code Samples
 - [List of Public Fuzzing Campaigns](https://github.com/perimetersec/public-fuzzing-campaigns-list) by [Rappie](https://x.com/rappie_eth)
@@ -53,8 +54,8 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [ERC20](https://github.com/crytic/properties?tab=readme-ov-file#erc20-tests) by [Trail of Bits](https://x.com/trailofbits)
 - [ERC721](https://github.com/crytic/properties?tab=readme-ov-file#erc721-tests) by [Trail of Bits](https://x.com/trailofbits)
 - [ERC4626](https://github.com/crytic/properties?tab=readme-ov-file#erc4626-tests) by [Trail of Bits](https://x.com/trailofbits)
-- [ABDKMath64x64](https://github.com/crytic/properties?tab=readme-ov-file#abdkmath64x64-tests) by [Trail of Bits](https://x.com/trailofbits)
 - [ERC7540](https://github.com/Recon-Fuzz/erc7540-reusable-properties) by [Recon](https://x.com/getreconxyz)
+- [ABDKMath64x64](https://github.com/crytic/properties?tab=readme-ov-file#abdkmath64x64-tests) by [Trail of Bits](https://x.com/trailofbits)
 
 ## Articles
 ### Tutorials & Guides
@@ -70,10 +71,10 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Generating unit tests from broken stateful invariant tests](https://allthingsfuzzy.substack.com/p/generating-unit-tests-from-broken) by [nican0r](https://x.com/nican0r) & [Antonio Viggiano](https://x.com/agfviggiano)
 - [Finding Denial of Service Bugs At Scale With Invariant Tests](https://allthingsfuzzy.substack.com/p/finding-denial-of-service-bugs-at) by [Antonio Viggiano](https://x.com/agfviggiano)
 - [Using Echidna to test a smart contract library](https://blog.trailofbits.com/2020/08/17/using-echidna-to-test-a-smart-contract-library/) by [Trail of Bits](https://x.com/trailofbits)
-- [Building A Test Harness With Recon](https://getrecon.substack.com/p/building-a-test-harness-with-recon) by [nican0r](https://x.com/nican0r)
 - [How To Define Invariants](https://getrecon.substack.com/p/how-to-define-invariants) by [nican0r](https://x.com/nican0r)
 - [Implementing Your First Smart Contract Invariants: A Practical Guide](https://getrecon.substack.com/p/implementing-your-first-few-invariants) by [nican0r](https://x.com/nican0r)
 - [10 Steps To Easily Use 3 Fuzzers](https://x.com/DevDacian/status/1733009929508917499) by [Dacian](https://x.com/DevDacian)
+- [Introducing Create Chimera App V2](https://getrecon.substack.com/p/introducing-create-chimera-app-v2?r=34r2zr) by [nican0r](https://x.com/nican0r) 
 
 ### Research & Background
 - [Learnings from 6 weeks of fuzzing Badger DAO's eBTC protocol](https://allthingsfuzzy.substack.com/p/learnings-from-6-weeks-of-fuzzing) by [Antonio Viggiano](https://x.com/agfviggiano)
@@ -88,6 +89,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Corn Engagement Retrospective: Lessons learned from our engagement fuzzing the Corn protocol](https://getrecon.substack.com/p/corn-engagement-retrospective) by [nican0r](https://x.com/nican0r) 
 - [Fuzzing vs. Formal Verification Discussion](https://x.com/0xScourgedev/status/1824122421844025622) by [0xScourgedev](https://x.com/0xScourgedev) & [Certora](https://x.com/CertoraInc)
 - [Manually Guided Fuzzing: A New Approach in Smart Contract Testing](https://ackee.xyz/blog/introducing-manually-guided-fuzzing-a-new-approach-in-smart-contract-testing/) by [Josef Gattermayer](https://x.com/jgattermayer)
+- [The call for invariant-driven development](https://blog.trailofbits.com/2025/02/12/the-call-for-invariant-driven-development/) by [Josselin Feist](https://x.com/Montyly)
 
 ## Videos
 ### Tutorials & Guides
@@ -99,7 +101,6 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Wake Framework - Swiss Knife to Ethereum Tooling](https://www.youtube.com/watch?v=sckN41TgRFY) by [Michal Převrátil](https://x.com/michprev)
 
 ### Talks & Discussion
-- [Web3 Security: All Things Fuzzing with Victor Martinez](https://www.youtube.com/watch?v=83q14K-WNKM) by [vnmrtz.eth](https://x.com/vn_martinez_)
 - [Fuzzing and Heuristics interview with @devdacian](https://www.youtube.com/watch?v=IZTvXfC14Ig), by [Cyfrin Audits](https://x.com/CyfrinAudits) 
 - [Fuzzing Like a Degen: Building a Smart Contract Fuzzer](https://youtu.be/qdtQ9k3gCX8?si=AquZxyikCZJwRaU5) by [alpharush](https://x.com/0xalpharush)
 - [All Things Fuzzing with Victor Martinez](https://youtu.be/83q14K-WNKM?si=ez3uZRBvm-3iksFT) by [vnmrtz.eth](https://x.com/vn_martinez_)
