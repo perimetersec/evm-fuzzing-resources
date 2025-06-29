@@ -30,7 +30,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Chimera](https://github.com/Recon-Fuzz/chimera) - Smart Contract Property-Based Testing Framework, by [Recon](https://x.com/getreconxyz)
 - [Fuzzlib](https://github.com/perimetersec/fuzzlib) - Solidity Fuzzing Library, by [Perimeter](https://x.com/perimeter_sec)
 - [Arachne](https://github.com/perimetersec/arachne) - Scaffolding framework for large-scale fuzzing suites, by [Perimeter](https://x.com/perimeter_sec)
-- [CallTestAndUndo](https://github.com/Recon-Fuzz/call-test-undo) - Simple abstract contract to help write invariant tests that do not influence the story, by [Recon](https://x.com/getreconxyz)
+- [Universal Fuzzing](https://github.com/GuardianOrg/UniversalFuzzing) - Echidna fuzzing template, by [Guardian Audits](https://x.com/GuardianAudits)
 - [Medusa Template Generator](https://crates.io/crates/medusa-gen) - Generate a set of contracts for a Medusa testing campaign following Wonderland usage, by [Wonderland](https://x.com/DeFi_Wonderland)
 
 ### Utils
@@ -38,9 +38,10 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [CloudExec](https://github.com/crytic/cloudexec) - A general purpose foundation for cloud-based fuzzing, by [Trail of Bits](https://x.com/trailofbits)
 - [Echidna Coverage Reporter](https://github.com/Simon-Busch/echidna-coverage) - A TypeScript tool to parse and analyze Echidna code coverage reports for Solidity smart contracts, by [0xsi](https://x.com/_0xsi)
 - [echidna-trace-parser](https://github.com/Enigma-Dark/echidna-trace-parser) - A parser that converts echidna call traces into foundry PoC tests, by [Enigma Dark](https://x.com/EnigmadarkLabs)
-- [Echidna Logs Scraper](https://getrecon.xyz/tools/echidna) - Scrape echidna logs for broken properties repros, by [Recon](https://x.com/getreconxyz)
-- [Youdusa](https://crates.io/crates/youdusa) -  Generate foundry tests for failling Medusa call sequences, by [Wonderland](https://x.com/DeFi_Wonderland)
 - [Recon VS Code Extension](https://github.com/Recon-Fuzz/recon-extension) - Seamless integration of Foundry, Medusa, and Echidna, by [Recon](https://x.com/getreconxyz)
+- [Runes](https://github.com/Enigma-Dark/runes) - CLI tool that converts Echidna fuzzer reproducer files to executable Foundry test files, by [Enigma Dark](https://x.com/EnigmadarkLabs)
+- [Echidna Logs Scraper](https://getrecon.xyz/tools/echidna) - Scrape echidna logs for broken properties repros, by [Recon](https://x.com/getreconxyz)
+- [Youdusa](https://crates.io/crates/youdusa) -  Generate foundry tests for failling Medusa call sequences, by [Wonderland](https://x.com/DeFi_Wonderland)
 
 ## Practical Code Samples
 - [List of Public Fuzzing Campaigns](https://github.com/perimetersec/public-fuzzing-campaigns-list) by [Rappie](https://x.com/rappie_eth)
@@ -56,6 +57,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [ERC4626](https://github.com/crytic/properties?tab=readme-ov-file#erc4626-tests) by [Trail of Bits](https://x.com/trailofbits)
 - [ERC7540](https://github.com/Recon-Fuzz/erc7540-reusable-properties) by [Recon](https://x.com/getreconxyz)
 - [ABDKMath64x64](https://github.com/crytic/properties?tab=readme-ov-file#abdkmath64x64-tests) by [Trail of Bits](https://x.com/trailofbits)
+- [ERCx Token Test Library](https://github.com/runtimeverification/ercx-tests) - A reusable collection of Foundry tests for several ERC token standards, by [Runtime Vеrification](https://x.com/rv_inc)
 
 ## Articles
 ### Tutorials & Guides
@@ -75,6 +77,8 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Implementing Your First Smart Contract Invariants: A Practical Guide](https://getrecon.substack.com/p/implementing-your-first-few-invariants) by [nican0r](https://x.com/nican0r)
 - [10 Steps To Easily Use 3 Fuzzers](https://x.com/DevDacian/status/1733009929508917499) by [Dacian](https://x.com/DevDacian)
 - [Introducing Create Chimera App V2](https://getrecon.substack.com/p/introducing-create-chimera-app-v2?r=34r2zr) by [nican0r](https://x.com/nican0r) 
+- [Advanced Fuzzing Tips using Chimera](https://book.getrecon.xyz/extra/advanced.html) by [Recon](https://x.com/getreconxyz)
+- [Exploiting Precision Loss via Fuzz Testing](https://dacian.me/exploiting-precision-loss-via-fuzz-testing) by [Dacian](https://x.com/DevDacian)
 
 ### Research & Background
 - [Learnings from 6 weeks of fuzzing Badger DAO's eBTC protocol](https://allthingsfuzzy.substack.com/p/learnings-from-6-weeks-of-fuzzing) by [Antonio Viggiano](https://x.com/agfviggiano)
@@ -90,10 +94,13 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Fuzzing vs. Formal Verification Discussion](https://x.com/0xScourgedev/status/1824122421844025622) by [0xScourgedev](https://x.com/0xScourgedev) & [Certora](https://x.com/CertoraInc)
 - [Manually Guided Fuzzing: A New Approach in Smart Contract Testing](https://ackee.xyz/blog/introducing-manually-guided-fuzzing-a-new-approach-in-smart-contract-testing/) by [Josef Gattermayer](https://x.com/jgattermayer)
 - [The call for invariant-driven development](https://blog.trailofbits.com/2025/02/12/the-call-for-invariant-driven-development/) by [Josselin Feist](https://x.com/Montyly)
+- [Why Audited Projects Are Getting Hacked & How To Avoid It (Invariants)](https://guardianaudits.notion.site/Why-Audited-Projects-Are-Getting-Hacked-How-To-Avoid-It-Invariants-1d78bda5828c804fb1c1c2263ab5766a) by [Guardian Audits](https://x.com/GuardianAudits)
+- [The Bug That Was Missed - How fuzzing for preconditions can lead to high severity vulnerabilities](https://getrecon.substack.com/p/the-bug-that-was-missed) by [nican0r](https://x.com/nican0r)
 
 ## Videos
 ### Tutorials & Guides
 - [Learn how to fuzz like a pro](https://www.youtube.com/playlist?list=PLciHOL_J7Iwqdja9UH4ZzE8dP1IxtsBXI) - Fuzzing workshop, by [Trail of Bits](https://x.com/trailofbits)
+- [Fuzzing for Security Researchers](https://www.youtube.com/watch?v=3A7aa5B8aak) by [Alex the Entreprenerd](https://x.com/GalloDaSballo)
 - Introduction to Fuzzing, Foundry, Echidna & Medusa, by [bloqarl](https://x.com/TheBlockChainer)
 	- [part 1](https://www.youtube.com/watch?v=xLGTd5OH8xU), [part 2](https://www.youtube.com/watch?v=dWyJq8KGATg), [part 3](https://www.youtube.com/watch?v=yUC3qzZlCkY), [part 4](https://www.youtube.com/watch?v=em8xXB9RHi4), [part 5](https://www.youtube.com/watch?v=I4MP-KXJE54), [part 6](https://www.youtube.com/watch?v=SSzh5GlqteI)
 - [Invariant Testing WETH with Foundry](https://www.youtube.com/watch?v=sJpL21yJpgs) by [horsefacts](https://x.com/eth_call)
@@ -117,6 +124,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Uniswap V4: Taking Invariant Testing Where Manual Review Cannot Go](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=8991s) by [Benjamin Samuels](https://x.com/thebensams)
 - [The Efficacy of Fuzzing](https://www.youtube.com/watch?v=BBw_odMWFOI) by [Kris RenZo](https://x.com/KrisRenzo)
 - [Uncover Hidden Bugs with Fuzzing](https://www.youtube.com/watch?v=GZTWKxgmGM8) by [Andrey Babushkin](https://x.com/technoBabushka)
+- [Invariant Testing - Fuzzing Defi Protocols](https://www.youtube.com/watch?v=FpDlI4hXRxE) by [vnmrtz.eth](https://x.com/vn_martinez_)
 
 ## Fuzzing Background
 - [The Fuzzing Book](https://www.fuzzingbook.org/) - Tools and Techniques for Generating Software Tests, by [Multiple Authors](https://x.com/FuzzingBook)
