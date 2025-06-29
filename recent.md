@@ -9,6 +9,7 @@
 
 ### Tutorials
 - [Advanced Fuzzing Tips using Chimera](https://book.getrecon.xyz/extra/advanced.html) by [Recon](https://x.com/getreconxyz)
+- [Exploiting Precision Loss via Fuzz Testing](https://dacian.me/exploiting-precision-loss-via-fuzz-testing) by [Dacian](https://x.com/DevDacian)
 
 ### Articles
 - [Why Audited Projects Are Getting Hacked & How To Avoid It (Invariants)](https://guardianaudits.notion.site/Why-Audited-Projects-Are-Getting-Hacked-How-To-Avoid-It-Invariants-1d78bda5828c804fb1c1c2263ab5766a) by [Guardian Audits](https://x.com/GuardianAudits)
@@ -17,5 +18,3 @@
 ### Videos
 - [Fuzzing for Security Researchers](https://www.youtube.com/watch?v=3A7aa5B8aak) by [Alex the Entreprenerd](https://x.com/GalloDaSballo)
 - [Invariant Testing - Fuzzing Defi Protocols](https://www.youtube.com/watch?v=FpDlI4hXRxE) by [vnmrtz.eth](https://x.com/vn_martinez_)
-
-
