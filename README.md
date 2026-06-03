@@ -41,7 +41,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Recon VS Code Extension](https://github.com/Recon-Fuzz/recon-extension) - Seamless integration of Foundry, Medusa, and Echidna, by [Recon](https://x.com/getreconxyz)
 - [Runes](https://github.com/Enigma-Dark/runes) - CLI tool that converts Echidna fuzzer reproducer files to executable Foundry test files, by [Enigma Dark](https://x.com/EnigmadarkLabs)
 - [Echidna Logs Scraper](https://getrecon.xyz/tools/echidna) - Scrape echidna logs for broken properties repros, by [Recon](https://x.com/getreconxyz)
-- [Youdusa](https://crates.io/crates/youdusa) -  Generate foundry tests for failling Medusa call sequences, by [Wonderland](https://x.com/DeFi_Wonderland)
+- [Youdusa](https://crates.io/crates/youdusa) - Generate foundry tests for failing Medusa call sequences, by [Wonderland](https://x.com/DeFi_Wonderland)
 
 ## Practical Code Samples
 - [List of Public Fuzzing Campaigns](https://github.com/perimetersec/public-fuzzing-campaigns-list) by [Rappie](https://x.com/rappie_eth)
@@ -57,7 +57,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [ERC4626](https://github.com/crytic/properties?tab=readme-ov-file#erc4626-tests) by [Trail of Bits](https://x.com/trailofbits)
 - [ERC7540](https://github.com/Recon-Fuzz/erc7540-reusable-properties) by [Recon](https://x.com/getreconxyz)
 - [ABDKMath64x64](https://github.com/crytic/properties?tab=readme-ov-file#abdkmath64x64-tests) by [Trail of Bits](https://x.com/trailofbits)
-- [ERCx Token Test Library](https://github.com/runtimeverification/ercx-tests) - A reusable collection of Foundry tests for several ERC token standards, by [Runtime Vеrification](https://x.com/rv_inc)
+- [ERCx Token Test Library](https://github.com/runtimeverification/ercx-tests) - A reusable collection of Foundry tests for several ERC token standards, by [Runtime Verification](https://x.com/rv_inc)
 
 ## Articles
 ### Tutorials & Guides

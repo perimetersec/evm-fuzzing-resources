@@ -5,7 +5,7 @@
 - [Runes](https://github.com/Enigma-Dark/runes) - CLI tool that converts Echidna fuzzer reproducer files to executable Foundry test files, by [Enigma Dark](https://x.com/EnigmadarkLabs)
 
 ### Reusable properties
-- [ERCx Token Test Library](https://github.com/runtimeverification/ercx-tests) - A reusable collection of Foundry tests for several ERC token standards, by [Runtime Vеrification](https://x.com/rv_inc)
+- [ERCx Token Test Library](https://github.com/runtimeverification/ercx-tests) - A reusable collection of Foundry tests for several ERC token standards, by [Runtime Verification](https://x.com/rv_inc)
 
 ### Tutorials
 - [Advanced Fuzzing Tips using Chimera](https://book.getrecon.xyz/extra/advanced.html) by [Recon](https://x.com/getreconxyz)
