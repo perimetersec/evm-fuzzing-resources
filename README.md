@@ -24,6 +24,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 ### Emerging/Specialized Fuzzers
 - [ItyFuzz](https://github.com/fuzzland/ityfuzz) by [fuzzland](https://x.com/fuzzland_)
 - [Wake](https://github.com/Ackee-Blockchain/wake) by [Ackee](https://x.com/AckeeBlockchain)
+- [Recon Fuzzer](https://github.com/Recon-Fuzz/recon-fuzzer) by [Recon](https://x.com/getreconxyz)
 
 ## Tooling
 ### Libraries & Frameworks
@@ -35,13 +36,15 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 
 ### Utils
 - [fuzz-utils](https://github.com/crytic/fuzz-utils) - Set of Python tools to improve the developer experience when using smart contract fuzzing, by [Trail of Bits](https://x.com/trailofbits)
+- [Recon VS Code Extension](https://github.com/Recon-Fuzz/recon-extension) - Seamless integration of Foundry, Medusa, and Echidna, by [Recon](https://x.com/getreconxyz)
+- [Recon Magic Framework](https://github.com/Recon-Fuzz/recon-magic-framework) - Autonomous Solidity fuzzing via a multi-agent orchestration framework, by [Recon](https://x.com/getreconxyz)
 - [CloudExec](https://github.com/crytic/cloudexec) - A general purpose foundation for cloud-based fuzzing, by [Trail of Bits](https://x.com/trailofbits)
 - [Echidna Coverage Reporter](https://github.com/Simon-Busch/echidna-coverage) - A TypeScript tool to parse and analyze Echidna code coverage reports for Solidity smart contracts, by [0xsi](https://x.com/_0xsi)
-- [echidna-trace-parser](https://github.com/Enigma-Dark/fuzz-trace-parser) - A parser that converts echidna call traces into foundry PoC tests, by [Enigma Dark](https://x.com/EnigmadarkLabs)
-- [Recon VS Code Extension](https://github.com/Recon-Fuzz/recon-extension) - Seamless integration of Foundry, Medusa, and Echidna, by [Recon](https://x.com/getreconxyz)
 - [Runes](https://github.com/Enigma-Dark/runes) - CLI tool that converts Echidna fuzzer reproducer files to executable Foundry test files, by [Enigma Dark](https://x.com/EnigmadarkLabs)
-- [Echidna Logs Scraper](https://getrecon.xyz/tools/echidna) - Scrape echidna logs for broken properties repros, by [Recon](https://x.com/getreconxyz)
+- [echidna-trace-parser](https://github.com/Enigma-Dark/fuzz-trace-parser) - A parser that converts echidna call traces into foundry PoC tests, by [Enigma Dark](https://x.com/EnigmadarkLabs)
+- [Osiris Lite](https://github.com/Enigma-Dark/osiris-lite) - CLI tool for managing remote fuzzing jobs, by [Enigma Dark](https://x.com/EnigmadarkLabs)
 - [Youdusa](https://crates.io/crates/youdusa) - Generate foundry tests for failing Medusa call sequences, by [Wonderland](https://x.com/DeFi_Wonderland)
+- [Echidna Logs Scraper](https://getrecon.xyz/tools/echidna) - Scrape echidna logs for broken properties repros, by [Recon](https://x.com/getreconxyz)
 
 ## Practical Code Samples
 - [List of Public Fuzzing Campaigns](https://github.com/perimetersec/public-fuzzing-campaigns-list) by [Rappie](https://x.com/rappie_eth)
