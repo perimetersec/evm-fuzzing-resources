@@ -9,10 +9,11 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 1. [Fuzzing Software](#fuzzing-software)
 2. [Tooling](#tooling)
 3. [Practical Code Samples](#practical-code-samples)
-4. [Reusable Properties](#reusable-properties)
-5. [Articles](#articles)
-6. [Videos](#videos)
-7. [Fuzzing Background](#fuzzing-background)
+4. [Benchmarking](#benchmarking)
+5. [Reusable Properties](#reusable-properties)
+6. [Articles](#articles)
+7. [Videos](#videos)
+8. [Fuzzing Background](#fuzzing-background)
 
 ## Fuzzing Software
 
@@ -48,11 +49,16 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 
 ## Practical Code Samples
 - [List of Public Fuzzing Campaigns](https://github.com/perimetersec/public-fuzzing-campaigns-list) by [Rappie](https://x.com/rappie_eth)
-- [Property-based testing benchmark](https://github.com/aviggiano/property-based-testing-benchmark) by [Antonio Viggiano](https://x.com/agfviggiano)
-- [Solidity Fuzzing Challenge: Foundry vs Echidna vs Medusa (plus Halmos & Certora)](https://github.com/devdacian/solidity-fuzzing-comparison) by [Dacian](https://x.com/DevDacian)
 - [Fuzzer Gas Metric Benchmark](https://github.com/rappie/fuzzer-gas-metric-benchmark) by [Rappie](https://x.com/rappie_eth)
 - [Reproduction of the $41M Curve reentrancy hacks on July 30 2023 using on-chain fuzzing with Echidna](https://github.com/rappie/echidna-curve-reentrancy-hack) by [Rappie](https://x.com/rappie_eth)
 - [Reproduction of the $80M Rari Finance Hack on April 30 2022 using on-chain fuzzing with Echidna](https://github.com/rappie/echidna-rari-hack) by [Rappie](https://x.com/rappie_eth)
+
+## Benchmarking
+- [Solidity Fuzzing Comparison](https://github.com/devdacian/solidity-fuzzing-comparison) - Comparison of Foundry, Echidna, Medusa, Halmos, and Certora on Solidity fuzzing challenges, by [Dacian](https://x.com/DevDacian)
+- [Daedaluzz](https://github.com/ConsenSysDiligence/daedaluzz/tree/master) - Benchmark generator for smart-contract fuzzers using generated Solidity maze contracts, by [ConsenSys Diligence](https://github.com/ConsenSysDiligence)
+- [Fuzzing Evaluation Guidelines](https://github.com/fuzz-evaluator/guidelines) - General guidelines for fair and reproducible fuzzing evaluations, by [Moritz Schloegel](https://x.com/m_u00d8)
+- [scfuzzbench](https://scfuzzbench.com/introduction) - Practical benchmark suite for smart-contract fuzzers focused on stateful invariant testing across realistic targets, by [Antonio Viggiano](https://x.com/aviggiano)
+- [Property-based Testing Benchmark](https://github.com/aviggiano/property-based-testing-benchmark) - Benchmark for comparing property-based testing tools against real-world DeFi projects, by [Antonio Viggiano](https://x.com/aviggiano)
 
 ## Reusable properties
 - [ERC20](https://github.com/crytic/properties?tab=readme-ov-file#erc20-tests) by [Trail of Bits](https://x.com/trailofbits)
@@ -73,8 +79,8 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Creating Invariant Tests for an AMM Smart Contract](https://allthingsfuzzy.substack.com/p/creating-invariant-tests-for-an-amm) by [bloqarl](https://x.com/TheBlockChainer)
 - [Debugging Echidna Coverage](https://allthingsfuzzy.substack.com/p/debugging-echidna-coverage) by [nican0r](https://x.com/nican0r) 
 - [First Day At Invariant School](https://getrecon.substack.com/p/first-day-at-invariant-school) by [nican0r](https://x.com/nican0r) 
-- [Generating unit tests from broken stateful invariant tests](https://allthingsfuzzy.substack.com/p/generating-unit-tests-from-broken) by [nican0r](https://x.com/nican0r) & [Antonio Viggiano](https://x.com/agfviggiano)
-- [Finding Denial of Service Bugs At Scale With Invariant Tests](https://allthingsfuzzy.substack.com/p/finding-denial-of-service-bugs-at) by [Antonio Viggiano](https://x.com/agfviggiano)
+- [Generating unit tests from broken stateful invariant tests](https://allthingsfuzzy.substack.com/p/generating-unit-tests-from-broken) by [nican0r](https://x.com/nican0r) & [Antonio Viggiano](https://x.com/aviggiano)
+- [Finding Denial of Service Bugs At Scale With Invariant Tests](https://allthingsfuzzy.substack.com/p/finding-denial-of-service-bugs-at) by [Antonio Viggiano](https://x.com/aviggiano)
 - [Using Echidna to test a smart contract library](https://blog.trailofbits.com/2020/08/17/using-echidna-to-test-a-smart-contract-library/) by [Trail of Bits](https://x.com/trailofbits)
 - [How To Define Invariants](https://getrecon.substack.com/p/how-to-define-invariants) by [nican0r](https://x.com/nican0r)
 - [Implementing Your First Smart Contract Invariants: A Practical Guide](https://getrecon.substack.com/p/implementing-your-first-few-invariants) by [nican0r](https://x.com/nican0r)
@@ -84,8 +90,8 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Exploiting Precision Loss via Fuzz Testing](https://dacian.me/exploiting-precision-loss-via-fuzz-testing) by [Dacian](https://x.com/DevDacian)
 
 ### Research & Background
-- [Learnings from 6 weeks of fuzzing Badger DAO's eBTC protocol](https://allthingsfuzzy.substack.com/p/learnings-from-6-weeks-of-fuzzing) by [Antonio Viggiano](https://x.com/agfviggiano)
-- [A Guide to Crafting Robust Invariants](https://allthingsfuzzy.substack.com/p/a-guide-to-crafting-robust-invariants) by [Web3Sec News](https://substack.com/@web3secnews) & [Antonio Viggiano](https://x.com/agfviggiano)
+- [Learnings from 6 weeks of fuzzing Badger DAO's eBTC protocol](https://allthingsfuzzy.substack.com/p/learnings-from-6-weeks-of-fuzzing) by [Antonio Viggiano](https://x.com/aviggiano)
+- [A Guide to Crafting Robust Invariants](https://allthingsfuzzy.substack.com/p/a-guide-to-crafting-robust-invariants) by [Web3Sec News](https://substack.com/@web3secnews) & [Antonio Viggiano](https://x.com/aviggiano)
 - [Certora vs Echidna: a case study on invariant testing in eBTC](https://allthingsfuzzy.substack.com/p/certora-vs-echidna-a-case-study-on) by [nican0r](https://x.com/nican0r)
 - [Uniswap v3: A Fuzzing Review](https://allthingsfuzzy.substack.com/p/uniswap-v3-a-fuzzing-review) by [nican0r](https://x.com/nican0r)
 - Lessons Learned From Fuzzing Centrifuge Protocol [part 1](https://getrecon.substack.com/p/lessons-learned-from-fuzzing-centrifuge) & [part 2](https://getrecon.substack.com/p/lessons-learned-from-fuzzing-centrifuge-059) by [nican0r](https://x.com/nican0r)
@@ -114,8 +120,8 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Fuzzing and Heuristics interview with @devdacian](https://www.youtube.com/watch?v=IZTvXfC14Ig), by [Cyfrin Audits](https://x.com/CyfrinAudits) 
 - [Fuzzing Like a Degen: Building a Smart Contract Fuzzer](https://youtu.be/qdtQ9k3gCX8?si=AquZxyikCZJwRaU5) by [alpharush](https://x.com/0xalpharush)
 - [All Things Fuzzing with Victor Martinez](https://youtu.be/83q14K-WNKM?si=ez3uZRBvm-3iksFT) by [vnmrtz.eth](https://x.com/vn_martinez_)
-- [Advanced Fuzzing Techniques: An eBTC Case Study](https://youtu.be/ELY_zjIAKuE?si=1CfWOLuRaeTwQVT2) by [Antonio Viggiano](https://x.com/agfviggiano)
-- [Invariant Testing Workshop](https://youtu.be/YAF79t_Sfiw?si=AhJ-0pepG6-P_Ux8) by [Antonio Viggiano](https://x.com/agfviggiano)
+- [Advanced Fuzzing Techniques: An eBTC Case Study](https://youtu.be/ELY_zjIAKuE?si=1CfWOLuRaeTwQVT2) by [Antonio Viggiano](https://x.com/aviggiano)
+- [Invariant Testing Workshop](https://youtu.be/YAF79t_Sfiw?si=AhJ-0pepG6-P_Ux8) by [Antonio Viggiano](https://x.com/aviggiano)
 - [Euler v2 Fuzzing Workshop by Víctor Martinez](https://youtu.be/WO3Xu7E4Tdg?si=MuQ1LJERLjRc8Pdc) by [vnmrtz.eth](https://x.com/vn_martinez_)
 - [Test your tests The dos and don'ts of testing](https://www.youtube.com/watch?v=7TcnUZGuk_s) by [phaze](https://x.com/lovethewired)
 - [Find Highs Using Invariant Fuzz Testing](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=15s) by [Dacian](https://x.com/DevDacian)
