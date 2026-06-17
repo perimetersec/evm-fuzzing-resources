@@ -73,6 +73,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Echidna Tutorial](https://github.com/crytic/building-secure-contracts/tree/master/program-analysis/echidna) by [Trail of Bits](https://x.com/trailofbits)
 - [Medusa Official Documentation](https://secure-contracts.com/program-analysis/medusa/docs/src/index.html) by [Trail of Bits](https://x.com/trailofbits)
 - [Foundry Invariant Testing Official Documentation](https://www.getfoundry.sh/guides/invariant-testing)
+- [Wake Fuzzing Guide](https://ackee.xyz/wake/docs/latest/testing-framework/fuzzing/) by [Ackee](https://x.com/AckeeBlockchain)
 - [Invariant Testing WETH With Foundry](https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw) by [horsefacts](https://x.com/eth_call)
 - [Introduction to fuzzing](https://allthingsfuzzy.substack.com/p/introduction-to-fuzzing) by [bloqarl](https://x.com/TheBlockChainer)
 - [Benefits of Fuzzing](https://github.com/perimetersec/resources/blob/main/services/Benefits%20of%20Fuzzing.md) by [Perimeter](https://x.com/perimeter_sec)
