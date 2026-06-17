@@ -13,3 +13,6 @@
 - [Property-based Testing Benchmark](https://github.com/aviggiano/property-based-testing-benchmark) - Benchmark for comparing property-based testing tools against real-world DeFi projects, by [Antonio Viggiano](https://x.com/aviggiano)
 - [Daedaluzz](https://github.com/ConsenSysDiligence/daedaluzz/tree/master) - Benchmark generator for smart-contract fuzzers using generated Solidity maze contracts, by [ConsenSys Diligence](https://x.com/ConsenSysAudits)
 - [Fuzzing Evaluation Guidelines](https://github.com/fuzz-evaluator/guidelines) - General guidelines for fair and reproducible fuzzing evaluations, by [Moritz Schloegel](https://x.com/m_u00d8)
+
+### Articles
+- [Echidna Enters a New Era of Symbolic Execution](https://gustavo-grieco.github.io/blog/echidna-symexec/) by [Gustavo Grieco](https://github.com/gustavo-grieco)
