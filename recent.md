@@ -15,6 +15,6 @@
 - [Fuzzing Evaluation Guidelines](https://github.com/fuzz-evaluator/guidelines) - General guidelines for fair and reproducible fuzzing evaluations, by [Moritz Schloegel](https://x.com/m_u00d8)
 
 ### Articles
+- [Wake Fuzzing Guide](https://ackee.xyz/wake/docs/latest/testing-framework/fuzzing/) by [Ackee](https://x.com/AckeeBlockchain)
 - [Echidna Enters a New Era of Symbolic Execution](https://gustavo-grieco.github.io/blog/echidna-symexec/) by [Gustavo Grieco](https://github.com/gustavo-grieco)
 - [Vibe Fuzzing Guide for Wake's Manually-Guided Fuzzing](https://ackee.xyz/blog/vibe-fuzzing-guide-for-wakes-manually-guided-fuzzing/) by [Naoki Yoshida](https://x.com/meditationduck)
-- [Wake Fuzzing Guide](https://ackee.xyz/wake/docs/latest/testing-framework/fuzzing/) by [Ackee](https://x.com/AckeeBlockchain)
