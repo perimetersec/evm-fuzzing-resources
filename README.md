@@ -83,11 +83,10 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [First Day At Invariant School](https://getrecon.substack.com/p/first-day-at-invariant-school) by [Nelson](https://x.com/nican0r)
 - [Generating unit tests from broken stateful invariant tests](https://allthingsfuzzy.substack.com/p/generating-unit-tests-from-broken) by [Nelson](https://x.com/nican0r) & [Antonio Viggiano](https://x.com/aviggiano)
 - [Finding Denial of Service Bugs At Scale With Invariant Tests](https://allthingsfuzzy.substack.com/p/finding-denial-of-service-bugs-at) by [Antonio Viggiano](https://x.com/aviggiano)
+- [A Guide to Crafting Robust Invariants](https://allthingsfuzzy.substack.com/p/a-guide-to-crafting-robust-invariants) by [Web3Sec News](https://substack.com/@web3secnews) & [Antonio Viggiano](https://x.com/aviggiano)
 - [Using Echidna to test a smart contract library](https://blog.trailofbits.com/2020/08/17/using-echidna-to-test-a-smart-contract-library/) by [Trail of Bits](https://x.com/trailofbits)
 - [How To Define Invariants](https://getrecon.substack.com/p/how-to-define-invariants) by [Nelson](https://x.com/nican0r)
 - [Implementing Your First Smart Contract Invariants: A Practical Guide](https://getrecon.substack.com/p/implementing-your-first-few-invariants) by [Nelson](https://x.com/nican0r)
-- [10 Steps To Easily Use 3 Fuzzers](https://x.com/DevDacian/status/1733009929508917499) by [Dacian](https://x.com/DevDacian)
-- [Introducing Create Chimera App V2](https://getrecon.substack.com/p/introducing-create-chimera-app-v2?r=34r2zr) by [Nelson](https://x.com/nican0r)
 - [Exploiting Precision Loss via Fuzz Testing](https://dacian.me/exploiting-precision-loss-via-fuzz-testing) by [Dacian](https://x.com/DevDacian)
 - [Echidna Enters a New Era of Symbolic Execution](https://gustavo-grieco.github.io/blog/echidna-symexec/) by [Gustavo Grieco](https://github.com/gustavo-grieco)
 - [Vibe Fuzzing Guide for Wake's Manually-Guided Fuzzing](https://ackee.xyz/blog/vibe-fuzzing-guide-for-wakes-manually-guided-fuzzing/) by [Naoki Yoshida](https://x.com/meditationduck)
@@ -95,7 +94,6 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 
 ### Research & Background
 - [Learnings from 6 weeks of fuzzing Badger DAO's eBTC protocol](https://allthingsfuzzy.substack.com/p/learnings-from-6-weeks-of-fuzzing) by [Antonio Viggiano](https://x.com/aviggiano)
-- [A Guide to Crafting Robust Invariants](https://allthingsfuzzy.substack.com/p/a-guide-to-crafting-robust-invariants) by [Web3Sec News](https://substack.com/@web3secnews) & [Antonio Viggiano](https://x.com/aviggiano)
 - [Certora vs Echidna: a case study on invariant testing in eBTC](https://allthingsfuzzy.substack.com/p/certora-vs-echidna-a-case-study-on) by [Nelson](https://x.com/nican0r)
 - [Uniswap v3: A Fuzzing Review](https://allthingsfuzzy.substack.com/p/uniswap-v3-a-fuzzing-review) by [Nelson](https://x.com/nican0r)
 - Lessons Learned From Fuzzing Centrifuge Protocol [part 1](https://getrecon.substack.com/p/lessons-learned-from-fuzzing-centrifuge) & [part 2](https://getrecon.substack.com/p/lessons-learned-from-fuzzing-centrifuge-059) by [Nelson](https://x.com/nican0r)
