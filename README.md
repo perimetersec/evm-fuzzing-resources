@@ -128,7 +128,6 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [Test your tests The dos and don'ts of testing](https://www.youtube.com/watch?v=7TcnUZGuk_s) by [phaze](https://x.com/lovethewired)
 - [Find Highs Using Invariant Fuzz Testing](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=15s) by [Dacian](https://x.com/DevDacian)
 - [Submit your first PR to Medusa](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=3855s) by [Josselin Feist](https://x.com/Montyly)
-- [A glimpse into the future of invariant testing](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=5627s) by [Alex the Entreprenerd](https://x.com/GalloDaSballo)
 - [You should probably be fuzzing](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=6565s) by [Daniel Von Fange](https://x.com/danielvf)
 - [Echidna Made Me Do It!](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=8030s) by [Alex the Entreprenerd](https://x.com/GalloDaSballo)
 - [Uniswap V4: Taking Invariant Testing Where Manual Review Cannot Go](https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=8991s) by [Benjamin Samuels](https://x.com/thebensams)
