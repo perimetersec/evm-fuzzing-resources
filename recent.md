@@ -11,5 +11,5 @@
 - [scfuzzbench](https://scfuzzbench.com/introduction) - Practical benchmark suite for smart-contract fuzzers focused on stateful invariant testing across realistic targets, by [Antonio Viggiano](https://x.com/aviggiano)
 - [Solidity Fuzzing Comparison](https://github.com/devdacian/solidity-fuzzing-comparison) - Comparison of Foundry, Echidna, Medusa, Halmos, and Certora on Solidity fuzzing challenges, by [Dacian](https://x.com/DevDacian)
 - [Property-based Testing Benchmark](https://github.com/aviggiano/property-based-testing-benchmark) - Benchmark for comparing property-based testing tools against real-world DeFi projects, by [Antonio Viggiano](https://x.com/aviggiano)
-- [Daedaluzz](https://github.com/ConsenSysDiligence/daedaluzz/tree/master) - Benchmark generator for smart-contract fuzzers using generated Solidity maze contracts, by [ConsenSys Diligence](https://github.com/ConsenSysDiligence)
+- [Daedaluzz](https://github.com/ConsenSysDiligence/daedaluzz/tree/master) - Benchmark generator for smart-contract fuzzers using generated Solidity maze contracts, by [ConsenSys Diligence](https://x.com/ConsenSysAudits)
 - [Fuzzing Evaluation Guidelines](https://github.com/fuzz-evaluator/guidelines) - General guidelines for fair and reproducible fuzzing evaluations, by [Moritz Schloegel](https://x.com/m_u00d8)
