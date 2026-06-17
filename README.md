@@ -137,6 +137,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 - [The Efficacy of Fuzzing](https://www.youtube.com/watch?v=BBw_odMWFOI) by [Kris RenZo](https://x.com/KrisRenzo)
 - [Uncover Hidden Bugs with Fuzzing](https://www.youtube.com/watch?v=GZTWKxgmGM8) by [Andrey Babushkin](https://x.com/technoBabushka)
 - [Invariant Testing - Fuzzing Defi Protocols](https://www.youtube.com/watch?v=FpDlI4hXRxE) by [vnmrtz.eth](https://x.com/vn_martinez_)
+- [Past, Present and Future of EVM Smart Contract Fuzzers](https://youtu.be/6-zv5ON2N1c?si=RcyQ7sxuvRr4_fJt) by [Gustavo Grieco](https://github.com/gustavo-grieco)
 
 ## Fuzzing Background
 - [The Fuzzing Book](https://www.fuzzingbook.org/) - Tools and Techniques for Generating Software Tests, by [Multiple Authors](https://x.com/FuzzingBook)
