@@ -4,8 +4,11 @@
 - [Recon Fuzzer](https://github.com/Recon-Fuzz/recon-fuzzer) by [Recon](https://x.com/getreconxyz)
 
 ### Tooling
-- [Recon Magic Framework](https://github.com/Recon-Fuzz/recon-magic-framework) - Autonomous Solidity fuzzing via a multi-agent orchestration framework, by [Recon](https://x.com/getreconxyz)
 - [Osiris Lite](https://github.com/Enigma-Dark/osiris-lite) - CLI tool for managing remote fuzzing jobs, by [Enigma Dark](https://x.com/EnigmadarkLabs)
+
+### AI
+- [Recon Magic Framework](https://github.com/Recon-Fuzz/recon-magic-framework) - Autonomous Solidity fuzzing via a multi-agent orchestration framework, by [Recon](https://x.com/getreconxyz)
+- [Vibe Fuzzing Guide for Wake's Manually-Guided Fuzzing](https://ackee.xyz/blog/vibe-fuzzing-guide-for-wakes-manually-guided-fuzzing/) by [Naoki Yoshida](https://x.com/meditationduck)
 
 ### Benchmarking
 - [scfuzzbench](https://scfuzzbench.com/introduction) - Practical benchmark suite for smart-contract fuzzers focused on stateful invariant testing across realistic targets, by [Antonio Viggiano](https://x.com/aviggiano)
@@ -17,7 +20,6 @@
 ### Articles
 - [Wake Fuzzing Guide](https://ackee.xyz/wake/docs/latest/testing-framework/fuzzing/) by [Ackee](https://x.com/AckeeBlockchain)
 - [Echidna Enters a New Era of Symbolic Execution](https://gustavo-grieco.github.io/blog/echidna-symexec/) by [Gustavo Grieco](https://github.com/gustavo-grieco)
-- [Vibe Fuzzing Guide for Wake's Manually-Guided Fuzzing](https://ackee.xyz/blog/vibe-fuzzing-guide-for-wakes-manually-guided-fuzzing/) by [Naoki Yoshida](https://x.com/meditationduck)
 - [Find Highs Before External Auditors Using Invariant Fuzz Testing](https://dacian.me/find-highs-before-external-auditors-using-invariant-fuzz-testing) by [Dacian](https://x.com/DevDacian)
 
 ### Media
