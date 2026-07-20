@@ -49,6 +49,7 @@ If you have suggestions regarding the content, feel free to reach out on X or op
 
 ## AI
 - [Recon Magic Framework](https://github.com/Recon-Fuzz/recon-magic-framework) - Autonomous Solidity fuzzing via a multi-agent orchestration framework, by [Recon](https://x.com/getreconxyz)
+- [Ultrafuzz: end-to-end agentic fuzzing for Solidity smart contracts](https://www.monad.xyz/blog/ultrafuzz) by [Monad](https://x.com/monad)
 - [Vibe Fuzzing Guide for Wake's Manually-Guided Fuzzing](https://ackee.xyz/blog/vibe-fuzzing-guide-for-wakes-manually-guided-fuzzing/) by [Naoki Yoshida](https://x.com/meditationduck)
 
 ## Practical Code Samples
