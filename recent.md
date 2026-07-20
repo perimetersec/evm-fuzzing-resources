@@ -22,3 +22,5 @@
 
 ### Media
 - [Past, Present and Future of EVM Smart Contract Fuzzers](https://youtu.be/6-zv5ON2N1c?si=RcyQ7sxuvRr4_fJt) by [Gustavo Grieco](https://github.com/gustavo-grieco)
+- [The Art of Manually Guided Fuzzing](https://www.youtube.com/watch?v=xYG-I3vle24) by [Kalis](https://x.com/jaczkal)
+- [Smart Contracts Fuzzing: Current Problems and Proposed Solutions](https://www.youtube.com/watch?v=DidSdyN18Mw) by [Andy M. Lee](https://x.com/andymooselee)
